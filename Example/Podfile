@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XGlib_Example' do
+  pod 'XGlib', :path => '../'
+
+  target 'XGlib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
